@@ -4,7 +4,7 @@ Linear Regression Modeling on King County House Sales data
 - Andrew Muller
 - Asher Khan
 ## Business Case
-todo
+We will predict how much a house should be sold for in order to determine whether a house on the markey is being underpriced or overpriced.
 ## Data Analysis
 todo
 ## Model
