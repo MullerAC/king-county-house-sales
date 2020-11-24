@@ -28,6 +28,7 @@ Our baseline model had the following metrics:
 - Test RMSE of 139700
 - 81 significant features (p-value < 0.05)
 - 103 features total
+
 ![baseline-qq](figures/baseline-qq-plot.png)
 
 To improve on our model, we took the folowing steps:
@@ -43,6 +44,7 @@ Our final model has the following metrics:
 - Test RMSE of 99701
 - 90 significant features (p-value < 0.05)
 - 90 features total
+
 ![final-qq](figures/final-qq-plot.png)
 
 We also performed cross-validation and constructed a residuals plot to verify that our final model is accurate.
