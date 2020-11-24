@@ -21,6 +21,32 @@ We look at colinear features using a heatmap and decide to remove the 'yr_built'
 ![heatmap](/figures/heatmap-before.png)
 
 ## Model
-todo
+Our baseline model had the following metrics:
+- R2 of 0.821
+- adjusted R2 of 0.820
+- Train RMSE of 157156
+- Test RMSE of 139700
+- 81 significant features (p-value < 0.05)
+- 103 features total
+![baseline-qq](figures/baseline-qq-plot.png)
+
+To improve on our model, we took the folowing steps:
+- dropped colinear features ()
+- removed outliers from our datasets
+- log transformed applicable continuous features
+- eliminated insignificant features (p-value < 0.05)
+
+Our final model has the following metrics:
+- R2 of 0.857
+- adjusted R2 of 0.856
+- Train RMSE of 103086
+- Test RMSE of 99701
+- 90 significant features (p-value < 0.05)
+- 90 features total
+![final-qq](figures/final-qq-plot.png)
+
+We also performed cross-validation and constructed a residuals plot to verify that our final model is accurate.
+![final-residuals](figures/final-residuals-plot.png)
+
 ## Conclusions
 todo
