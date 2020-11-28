@@ -51,4 +51,20 @@ We also performed cross-validation and constructed a residuals plot to verify th
 ![final-residuals](figures/final-residuals-plot.png)
 
 ## Conclusions
-todo
+
+- each bedroom decreases the sale price of a house by 5%
+- each bathroom increases the sale price of a house by 6%
+- a 1% change in square footage living area increases the sale price of a house by .48%
+- a 1% change in square footage lot area increases the sale price of a house by .07%
+- if the house is on the waterfront, the sale price of a house increases by 60%
+- a 1% change in square footage basement area decreases the sale price of a house by .00005%
+- if you move north, a 1 degree increase in latitude increases the sale price of a house by 65%
+- if you move east, a 1 degree increase in longitude decreases the sale price of a house by 53%
+- a 1-year increase in the age of a house increases its sale price by .04%
+- a house that has been renovated has its sale price increased by 6%
+- using a one-floor house as a baseline, a 1.5-floor house has its price increased by 1.5%, while a 3-floor house has its price decreased by 6.4%. Other numbers of floors are approximately equal in price to a 1-floor house.
+- using a condition of 1 as a baseline, a condition of 2 increases the price by 19%, a condition of 3 increases the price of a house by 31%, a condition of 4 increases the price by 35%, and a condition of 5 increases the price by 40%
+
+Our model could be improved in the future by adding interactive features, polynomial features, and map data.
+
+Our final model will be useful in predicting sale prices of houses in King county. We can use these predictions to help our clients set the prices for their houses, and find houses that are currently underpriced.
