@@ -14,10 +14,10 @@ We were given information on the column in the column_names.md file. After turni
 With the data cleaned, we start to analyze it. Scatter plots of each variable against our target, price, show which of our variables have obvious linear relationships. Insignificant relationships will be taken care of when we start looking at the p-values of our coefficients, so they don't need to be handled now. This also makes clearer which variables are categorical and which are continuous.
 ![scatterplots](/figures/scatter-plots.png)
 
-Histograms show us that none of our variables are normally distributed. None of them are, so we will need to log transform them later.
+Histograms show us which of our variables are normally distributed. None of them are, so we will need to log transform them later.
 ![histograms](/figures/histogram-plots.png)
 
-We look at colinear features using a heatmap and decide to remove the 'yr_built', 'yr_renovated', 'price', 'yr_sold', and 'yr_since_renovation' columns.
+We look at collinear features using a heatmap and decide to remove the 'yr_built', 'yr_renovated', 'price', 'yr_sold', and 'yr_since_renovation' columns.
 ![heatmap](/figures/heatmap-before.png)
 
 ## Model
