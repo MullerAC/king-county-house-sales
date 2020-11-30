@@ -31,7 +31,7 @@ Our baseline model had the following metrics:
 
 ![baseline-qq](figures/baseline-qq-plot.png)
 
-To improve on our model, we took the folowing steps:
+To improve on our model, we took the following steps:
 - dropped colinear features ()
 - removed outliers from our datasets
 - log transformed applicable continuous features
